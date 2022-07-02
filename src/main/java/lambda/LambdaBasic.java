@@ -4,7 +4,7 @@ import lambda.entity.Formula;
 
 public class LambdaBasic {
 
-    public void sum() {
+    public void run() {
 
         /**
          * author : byun sangil
