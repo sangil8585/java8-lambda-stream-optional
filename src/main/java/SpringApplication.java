@@ -1,6 +1,5 @@
 import lambda.LambdaBasic;
 import lambda.LambdaForEach;
-import lambda.LamdaArrayForEach;
 import optional.OptionalBasic;
 
 public class SpringApplication {
@@ -16,8 +15,6 @@ public class SpringApplication {
         OptionalBasic optionalBasic = new OptionalBasic();
         optionalBasic.run();
 
-        LamdaArrayForEach lamdaArrayForEach = new LamdaArrayForEach();
-        lamdaArrayForEach.run();
 
     }
 }
