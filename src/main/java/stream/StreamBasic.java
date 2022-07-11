@@ -2,6 +2,7 @@ package stream;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.stream.Stream;
 
 public class StreamBasic {
 
@@ -19,6 +20,17 @@ public class StreamBasic {
         list.stream()
                 .filter("b"::equals)
                 .forEach(System.out::println);
+
+        /**
+         * author : byun sangil
+         * date : 2022-07-07
+         * description : 정적 메소드 'Array.stream()'인자로 배열을 입력하면, 순회하는 스트림 객체를 만들 수 있다. Array.stream()
+         * 메소드에 배열과 시작, 종료 인덱스를 인자로 주면 배열 일부를 순회하는 스트림 객체를 만들 수 있다.
+         **/
+        String[] array = new String[]{"byun", "sang", "il"};
+        Stream<String> stream1 = Arrays.stream(array);
+        Stream<String> stream2 = Arrays.stream(array, 1, 3); // 인덱스 1포함, 3제외 ("sang", "il")
+
 
     }
 }
