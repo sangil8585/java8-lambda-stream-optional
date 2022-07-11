@@ -16,14 +16,14 @@ public class StreamBasic {
          * 또한 스트림을 사용하면 멀티 스레드 환경에 필요한 코드를 작성하지 않아도 데이터를 병렬로 처리할 수 있다.
          **/
 
-        ArrayList<String> list = new ArrayList<String>(Arrays.asList("byun", "sang", "il"));
-        list.stream()
-                .filter("b"::equals)
-                .forEach(System.out::println);
+//        ArrayList<String> list = new ArrayList<String>(Arrays.asList("byun", "sang", "il"));
+//        list.stream()
+//                .filter("b"::equals)
+//                .forEach(System.out::println);
 
         /**
          * author : byun sangil
-         * date : 2022-07-07
+         * date : 2022-07-11
          * description : 정적 메소드 'Array.stream()'인자로 배열을 입력하면, 순회하는 스트림 객체를 만들 수 있다. Array.stream()
          * 메소드에 배열과 시작, 종료 인덱스를 인자로 주면 배열 일부를 순회하는 스트림 객체를 만들 수 있다.
          **/
