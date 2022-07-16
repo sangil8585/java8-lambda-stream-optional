@@ -1,6 +1,7 @@
 import lambda.LambdaBasic;
 import lambda.LambdaForEach;
 import optional.OptionalBasic;
+import stream.StreamAnyMatch;
 import stream.StreamIfPresent;
 
 public class SpringApplication {
@@ -18,6 +19,9 @@ public class SpringApplication {
 
         StreamIfPresent streamIfPresent = new StreamIfPresent();
         streamIfPresent.run();
+
+        StreamAnyMatch streamAnyMatch = new StreamAnyMatch();
+        streamAnyMatch.run();
 
     }
 }

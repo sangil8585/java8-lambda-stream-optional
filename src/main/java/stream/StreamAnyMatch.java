@@ -9,7 +9,8 @@ public class StreamAnyMatch {
         /**
          * author : byun sangil
          * date : 2022-07-16
-         * description : 앞의 함수를 처리한 결과 값에 대해 출력함
+         * description : anyMatch/ allMatch/ noneMatch
+         * true가 리턴되면 작업을 모두 종료함
          **/
 
         Stream.of("d2","a2","b1","b3","c")
