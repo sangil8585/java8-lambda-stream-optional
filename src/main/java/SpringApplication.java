@@ -3,6 +3,7 @@ import lambda.LambdaForEach;
 import optional.OptionalBasic;
 import stream.StreamAnyMatch;
 import stream.StreamIfPresent;
+import stream.StreamStratWith;
 
 public class SpringApplication {
 
@@ -22,6 +23,9 @@ public class SpringApplication {
 
         StreamAnyMatch streamAnyMatch = new StreamAnyMatch();
         streamAnyMatch.run();
+
+        StreamStratWith streamStratWith = new StreamStratWith();
+        streamStratWith.run();
 
     }
 }
