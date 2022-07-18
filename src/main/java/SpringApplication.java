@@ -2,6 +2,7 @@ import lambda.LambdaBasic;
 import lambda.LambdaForEach;
 import optional.OptionalBasic;
 import stream.StreamAnyMatch;
+import stream.StreamFindFirst;
 import stream.StreamIfPresent;
 import stream.StreamStartWith;
 
@@ -28,5 +29,7 @@ public class SpringApplication {
         StreamStartWith streamStartWith = new StreamStartWith();
         streamStartWith.run();
 
+        StreamFindFirst streamFindFirst = new StreamFindFirst();
+        streamFindFirst.run();
     }
 }
