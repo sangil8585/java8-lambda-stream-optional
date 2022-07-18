@@ -9,7 +9,7 @@ public class StreamStratWith {
     /**
      * author : byun sangil
      * date : 2022-07-18
-     * description :
+     * description : stream()을 통해 넘겨받은 객체스트림으로 연산
      **/
 
     List<String> myList = Arrays.asList("a1","a2","b1","c1","c2");
